@@ -109,7 +109,11 @@ body {
 }
 
 .text-color-purple-light {
-  color: #f4dffc;
+  color: #f4dffc !important;
+}
+
+.text-color-purple-heavy {
+  color: #591f7d !important;
 }
 
 .wrapper {
@@ -314,5 +318,63 @@ body {
 .detail-5 {
   .sub-text {
     border-top: 1px solid #944dbf;
+  }
+}
+
+.banner-5 {
+  .sub-text {
+    border-top: 1px solid #944dbf;
+  }
+
+  .floating {
+    background-color: white;
+    margin-left: -10%;
+    margin-right: 10%;
+    margin-top: 35%;
+    margin-bottom: -10%;
+    position: inherit;
+    z-index: 100;
+  }
+}
+
+.banner-6 {
+  background-color: rgba(89, 31, 125, 0.11);
+  height: 22rem;
+  margin-right: -4rem;
+  margin-top: -12rem;
+}
+
+.detail-6 {
+  margin-top: 6rem;
+
+  .steps-images {
+    align-items: baseline;
+
+    #icon-5,
+    #icon-6,
+    #icon-7,
+    #icon-8 {
+      align-self: stretch;
+    }
+  }
+
+  .content {
+    border-top: 1px solid #944dbf;
+  }
+
+  .contact {
+    border-top: 1px solid #591f7d;
+    border-bottom: 1px solid #591f7d;
+
+    .item {
+      border: 1px solid #591f7d;
+      background-color: white;
+      border-radius: 7px;
+
+      img {
+        display: inline-block;
+        vertical-align: middle;
+      }
+    }
   }
 }
