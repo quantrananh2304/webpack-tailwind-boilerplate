@@ -1,3 +1,163 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "NotoSerif";
+  font-display: swap;
+  src: url("./assets/fonts/NotoSerifJP-Bold.otf");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NotoSerif";
+  font-display: swap;
+  src: url("./assets/fonts/NotoSerifJP-ExtraLight.otf");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NotoSerif";
+  font-display: swap;
+  src: url("./assets/fonts/NotoSerifJP-Light.otf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NotoSerif";
+  font-display: swap;
+  src: url("./assets/fonts/NotoSerifJP-Medium.otf");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NotoSerif";
+  font-display: swap;
+  src: url("./assets/fonts/NotoSerifJP-Regular.otf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NotoSerif";
+  font-display: swap;
+  src: url("./assets/fonts/NotoSerifJP-SemiBold.otf");
+  font-weight: 600;
+  font-style: normal;
+}
+
+body {
+  font-family: "NotoSerif", "sans-serif";
+  overflow-x: hidden;
+  color: #333333;
+}
+
+.color-purple {
+  color: #944dbf !important;
+}
+
+.fs-15 {
+  font-size: 1.5rem !important;
+}
+
+.fs-32 {
+  font-size: 3.2rem !important;
+}
+
+.fs-20 {
+  font-size: 2rem !important;
+}
+
+.fs-25 {
+  font-size: 2.5rem !important;
+}
+
+.text-color-primary {
+  color: #333333 !important;
+}
+
+.header {
+  background-image: url("./assets/header-background.svg");
+  background-repeat: no-repeat;
+  width: 100vw;
+  padding: 6% 10%;
+  background-size: 100%;
+
+  .text {
+    .title-1 {
+      font-size: 3.1rem;
+      span {
+        border-bottom: 1px solid #944dbf;
+      }
+    }
+
+    .title-2 {
+      font-size: 2.1rem;
+      width: fit-content;
+    }
+
+    .content {
+      font-size: 1.4rem;
+      border-bottom: 1px solid #944bdf;
+      border-top: 1px solid #944bdf;
+      width: fit-content;
+      padding: 1.2rem 0;
+    }
+  }
+
+  .items {
+    .item {
+      background: linear-gradient(
+        45deg,
+        rgba(201, 145, 235, 1) 0%,
+        rgba(201, 145, 235, 1) 51%,
+        rgba(255, 255, 255, 1) 51%,
+        rgba(255, 255, 255, 1) 100%
+      );
+      font-size: 2.1rem;
+
+      :first-child {
+        text-align: initial;
+        padding: 1.7rem 0 1.3rem 2.8rem;
+        color: white;
+      }
+
+      :last-child {
+        text-align: end;
+        padding: 1.7rem 2.8rem 1.3rem 0;
+        color: rgb(201, 145, 235);
+      }
+    }
+  }
+
+  .circles {
+    .circle {
+      background-color: white;
+      border-radius: 50%;
+      min-width: 15rem;
+      width: 15rem;
+      height: 15rem;
+      color: #944dbf;
+
+      p {
+        min-width: 15rem;
+      }
+    }
+
+    .circle::after {
+      content: "";
+      border: solid 1px #dc84e0;
+      position: relative;
+      width: 15rem;
+      min-width: 15rem;
+      height: 15rem;
+      border-radius: 50%;
+      left: calc(-15rem - 2px);
+      bottom: 5px;
+    }
+  }
+}
