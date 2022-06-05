@@ -310,3 +310,9 @@ body {
     }
   }
 }
+
+.detail-5 {
+  .sub-text {
+    border-top: 1px solid #944dbf;
+  }
+}
