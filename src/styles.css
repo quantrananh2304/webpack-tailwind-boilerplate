@@ -5,7 +5,7 @@
 @font-face {
   font-family: "NotoSerif";
   font-display: swap;
-  src: url("./assets/fonts/NotoSerifJP-Bold.otf");
+  src: url("./assets/fonts/NotoSerifJP-Bold.otf") format("otf");
   font-weight: 700;
   font-style: normal;
 }
@@ -13,7 +13,7 @@
 @font-face {
   font-family: "NotoSerif";
   font-display: swap;
-  src: url("./assets/fonts/NotoSerifJP-ExtraLight.otf");
+  src: url("./assets/fonts/NotoSerifJP-ExtraLight.otf") format("otf");
   font-weight: 200;
   font-style: normal;
 }
@@ -21,7 +21,7 @@
 @font-face {
   font-family: "NotoSerif";
   font-display: swap;
-  src: url("./assets/fonts/NotoSerifJP-Light.otf");
+  src: url("./assets/fonts/NotoSerifJP-Light.otf") format("otf");
   font-weight: 300;
   font-style: normal;
 }
@@ -29,7 +29,7 @@
 @font-face {
   font-family: "NotoSerif";
   font-display: swap;
-  src: url("./assets/fonts/NotoSerifJP-Medium.otf");
+  src: url("./assets/fonts/NotoSerifJP-Medium.otf") format("otf");
   font-weight: 500;
   font-style: normal;
 }
@@ -37,7 +37,7 @@
 @font-face {
   font-family: "NotoSerif";
   font-display: swap;
-  src: url("./assets/fonts/NotoSerifJP-Regular.otf");
+  src: url("./assets/fonts/NotoSerifJP-Regular.otf") format("otf");
   font-weight: 400;
   font-style: normal;
 }
@@ -45,7 +45,7 @@
 @font-face {
   font-family: "NotoSerif";
   font-display: swap;
-  src: url("./assets/fonts/NotoSerifJP-SemiBold.otf");
+  src: url("./assets/fonts/NotoSerifJP-SemiBold.otf") format("otf");
   font-weight: 600;
   font-style: normal;
 }
@@ -56,12 +56,16 @@ body {
   color: #333333;
 }
 
-.color-purple {
-  color: #944dbf !important;
+.fs-12 {
+  font-size: 1.2rem !important;
 }
 
 .fs-15 {
   font-size: 1.5rem !important;
+}
+
+.fs-17 {
+  font-size: 1.7rem !important;
 }
 
 .fs-20 {
@@ -84,17 +88,30 @@ body {
   font-size: 3.5rem !important;
 }
 
+.fs-40 {
+  font-size: 4rem !important;
+}
+
+.lh-60 {
+  line-height: 6rem !important;
+}
+
 .text-color-primary {
   color: #333333 !important;
+}
+
+.text-color-purple {
+  color: #944dbf !important;
 }
 
 .wrapper {
   max-width: 1200px;
   margin: auto;
+  width: 1200px;
 }
 
-.header {
-  background-image: url("./assets/header-background.svg");
+.banner-1 {
+  background-image: url("./assets/images/header-background.svg");
   padding: 6% 10%;
   background-size: 100%;
 
@@ -198,5 +215,60 @@ body {
   .text {
     border-bottom: 1px solid #591f7d;
     width: calc(560px - 8rem);
+  }
+}
+
+.detail-2 {
+  width: 944px;
+  height: 853px;
+  background-image: url("./assets/images/image-1.svg");
+}
+
+.detail-3 {
+  .sub-text {
+    border-top: 1px solid #944dbf;
+  }
+}
+
+.banner-2 {
+  .sub-text {
+    border-top: 1px solid #944dbf;
+  }
+
+  .floating {
+    background-color: white;
+    margin-left: -10%;
+    margin-right: 10%;
+    margin-top: 35%;
+    margin-bottom: -10%;
+    position: inherit;
+    z-index: 100;
+  }
+}
+
+.banner-3 {
+  background-color: rgba(89, 31, 125, 0.11);
+  height: 50rem;
+  margin-right: -4rem;
+  margin-top: -12rem;
+
+  .wrapper {
+    margin-top: 3.5rem;
+    margin-bottom: 6rem;
+
+    .item {
+      border: 1px solid #591f7d;
+      background-color: white;
+      border-radius: 7px;
+
+      img {
+        display: inline-block;
+        vertical-align: middle;
+      }
+
+      p {
+        color: #591f7d;
+      }
+    }
   }
 }
