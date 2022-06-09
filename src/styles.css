@@ -433,7 +433,7 @@ body::-webkit-scrollbar-thumb {
 
 #sec_contact-us {
   margin: 70px 0 130px;
-  background-color: #F9F6FA;
+  background-color: #f9f6fa;
 }
 
 #sec_contact-us .formWrap table {
@@ -451,7 +451,7 @@ body::-webkit-scrollbar-thumb {
   line-height: 1;
 }
 #sec_contact-us .formWrap {
-  margin-top: 50px;
+  margin-top: 100px;
 }
 #sec_contact-us .formWrap input[type="text"] {
   -moz-appearance: none;
@@ -485,7 +485,8 @@ body::-webkit-scrollbar-thumb {
   border-radius: 23px;
   height: 46px;
   width: 260px;
-  background: #591f7d url("./assets/images/btn_arrow.svg") right 25px center no-repeat;
+  background: #591f7d url("./assets/images/btn_arrow.svg") right 25px center
+    no-repeat;
   margin: 30px auto 0;
   cursor: pointer;
 }
@@ -676,4 +677,59 @@ body::-webkit-scrollbar-thumb {
 .mail-form-item .item {
   border: 1px solid #591f7d;
   border-radius: 7px;
+}
+
+.faq-wrap {
+  margin: 90px 0 0;
+}
+
+.faq-frame {
+  border: 1px solid #591f7d;
+  border-radius: 7px;
+  background: #fff;
+  margin-bottom: 30px;
+}
+
+.faq-frame dl dt {
+  position: relative;
+  padding-left: 50px;
+  padding-right: 60px;
+  font-size: 1rem;
+  line-height: 1.6;
+  padding: 25px 100px 25px 110px;
+  user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
+
+.faq-frame dl span {
+  font-weight: 600;
+  font-size: 1.625rem;
+  line-height: 1.2;
+  position: absolute;
+  left: 62px;
+  top: 25px;
+  width: 50px;
+  color: #591f7d;
+}
+
+.faq-frame dl dd {
+  padding-left: 50px;
+  position: relative;
+  display: none;
+  font-size: 1rem;
+  line-height: 2;
+  border-top: 1px solid #591f7d;
+  margin-top: 20px;
+  will-change: transform;
+  padding: 20px 10px 0 50px;
+  margin: 0 60px 20px;
+  opacity: 1;
+  transition: opacity 0.3s 0.1s;
+}
+
+.faq-frame dl dd span {
+  left: 4px;
+  top: 22px;
 }
