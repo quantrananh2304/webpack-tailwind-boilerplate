@@ -447,7 +447,7 @@ body::-webkit-scrollbar-thumb {
 
 #sec_contact-us .formWrap th {
   font-family: "Noto Serif JP", serif;
-  font-size: 1.8rem;
+  font-size: 1.2rem;
   line-height: 1;
 }
 #sec_contact-us .formWrap {
@@ -653,7 +653,7 @@ body::-webkit-scrollbar-thumb {
   font-family: "Noto Serif JP", serif;
   font-weight: 600;
   text-align: center;
-  font-size: 1.8rem;
+  font-size: 1.2rem;
   margin-bottom: 20px;
 }
 #sec_contact-us .error_list {
@@ -732,4 +732,225 @@ body::-webkit-scrollbar-thumb {
 .faq-frame dl dd span {
   left: 4px;
   top: 22px;
+}
+
+@media screen and (max-width: 750px) {
+  #sec_contact-us {
+    padding: 20vw 0 40vw;
+  }
+
+  #sec_contact-us .formWrap th {
+    font-family: "Noto Serif JP", serif;
+    font-size: 1.2rem;
+    line-height: 1;
+  }
+  /*------------------------------------------------*/
+  #sec_contact-us .formWrap {
+    margin-top: 20vw;
+  }
+  #sec_contact-us .formWrap input[type="text"] {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    background-image: none;
+    border: none;
+    border-bottom: 1px solid #707070;
+    border-radius: 0;
+    color: inherit;
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 4px 2px;
+    width: 100%;
+  }
+  #sec_contact-us .formWrap input[type="text"]:focus {
+    border-bottom: 1px solid #591f7d;
+    box-shadow: none;
+    outline: none;
+  }
+
+  #sec_contact-us .formWrap input[type="submit"] {
+    display: block;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border: none;
+    font-size: 1rem;
+    color: #fff;
+    border-radius: 23px;
+    height: 46px;
+    min-width: 60vw;
+    background: #591f7d url("./assets/images/btn_arrow.svg") right 25px center
+      no-repeat;
+    margin: 30px auto 0;
+    cursor: pointer;
+  }
+
+  #sec_contact-us .formWrap input[type="radio"] {
+    margin-right: 5px;
+    font-size: 1rem;
+  }
+
+  #sec_contact-us .formWrap textarea {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid #707070;
+    border-radius: 0;
+    font-size: 1rem;
+    height: 190px;
+    padding: 0 3px;
+    width: 100%;
+    resize: vertical;
+  }
+
+  #sec_contact-us .formWrap textarea:focus {
+    border: 1px solid #591f7d;
+    box-shadow: none;
+    outline: none;
+  }
+  #sec_contact-us .formWrap table {
+    display: block;
+    width: 100%;
+  }
+  #sec_contact-us .formWrap table tbody {
+    display: block;
+  }
+  #sec_contact-us .formWrap tr {
+    display: block;
+    margin-bottom: 12vw;
+  }
+  #sec_contact-us .formWrap th {
+    display: block;
+    font-size: 1.2rem;
+    line-height: 1;
+    margin-bottom: 3vw;
+  }
+  #sec_contact-us .formWrap th sup {
+    font-size: 0.6em;
+    vertical-align: super;
+  }
+  #sec_contact-us .formWrap td {
+    display: block;
+    font-size: 1rem;
+    line-height: 1;
+  }
+  #sec_contact-us .formWrap th,
+  #sec_contact-us .formWrap td {
+    vertical-align: top;
+  }
+  #sec_contact-us .formWrap .card {
+    margin-top: 15px;
+  }
+  #sec_contact-us .formWrap td.r {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 8px;
+  }
+  #sec_contact-us .formWrap label + label {
+    margin-left: 5vw;
+  }
+  ::placeholder {
+    color: #b4b4b4;
+  }
+
+  .cp_ipselect {
+    overflow: hidden;
+    text-align: center;
+  }
+  .cp_ipselect,
+  #sec_contact-us .t {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 3vw 0 0;
+  }
+  .cp_ipselect select {
+    font-size: 1rem;
+    width: 20vw;
+    padding-right: 0;
+    cursor: pointer;
+    text-overflow: ellipsis;
+    border: none;
+    outline: none;
+    background: transparent;
+    background-image: none;
+    box-shadow: none;
+    -webkit-appearance: none;
+    appearance: none;
+
+    text-align: center;
+  }
+  .cp_ipselect select::-ms-expand {
+    display: none;
+  }
+  .cp_ipselect.cp_sl01 {
+    position: relative;
+    border-bottom: 1px solid #707070;
+    background: #ffffff;
+    width: 20vw;
+  }
+  .cp_ipselect.cp_sl01::before {
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    width: 20px;
+    height: 10px;
+    padding: 0;
+    content: "";
+    pointer-events: none;
+    background: url("./assets/images/form_arrow.svg") center center no-repeat;
+  }
+  .cp_ipselect.cp_sl01 select {
+    padding: 2vw 6vw 2vw 0;
+    color: #666666;
+  }
+
+  #sec_contact-us .backBtn {
+    display: block;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+    border-radius: 23px;
+    border: 1px solid #999;
+    height: 46px;
+    line-height: 40px;
+    width: 260px;
+    background: #f7f7f7;
+    margin: 60px auto 0;
+    cursor: pointer;
+    text-align: center;
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 400;
+  }
+
+  #sec_contact-us .message {
+    font-family: "Noto Serif JP", serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  #sec_contact-us .error_list {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 1rem;
+    color: #c00;
+    text-align: center;
+    background: #fff;
+  }
+  #sec_contact-us table.contact {
+    font-family: "Noto Sans JP", sans-serif;
+    margin: 30px auto;
+  }
+  #sec_contact-us table.contact th,
+  #sec_contact-us table.contact td {
+    border: 1px solid #999;
+    vertical-align: middle;
+    padding: 10px;
+  }
 }
