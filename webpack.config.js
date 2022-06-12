@@ -6,6 +6,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "bundle.js",
+    assetModuleFilename: "assets/[hash][ext]",
   },
   module: {
     rules: [
@@ -24,10 +25,16 @@ module.exports = {
       {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
         type: "asset/resource",
+        generator: {
+          filename: "assets/images/[hash][ext]",
+        },
       },
       {
         test: /\.(woff|woff2|eot|ttf|otf)$/i,
         type: "asset/resource",
+        generator: {
+          filename: "assets/fonts/[hash][ext]",
+        },
       },
     ],
   },
