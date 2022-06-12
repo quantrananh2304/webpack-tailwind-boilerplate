@@ -176,6 +176,10 @@ body::-webkit-scrollbar-thumb {
     }
   }
 
+  .col-span-2 {
+    padding-left: 7%;
+  }
+
   .text {
     .title-1 {
       font-size: 3.1rem;
@@ -233,6 +237,7 @@ body::-webkit-scrollbar-thumb {
         rgba(255, 255, 255, 1) 100%
       );
       font-size: 2.1rem;
+      border: 1px solid #c991eb;
 
       :first-child {
         text-align: initial;
@@ -271,7 +276,7 @@ body::-webkit-scrollbar-thumb {
 
   .circles {
     .circle {
-      background-color: white;
+      background-color: rgba(255, 255, 255, 0.8);
       border-radius: 50%;
       height: 15rem;
       color: #944dbf;
@@ -400,6 +405,11 @@ body::-webkit-scrollbar-thumb {
     width: 45%;
   }
 
+  .px-6 {
+    padding-left: 7.5rem;
+    padding-right: 7.5rem;
+  }
+
   @media only screen and (max-width: 600px) {
     padding-top: 1.6rem;
     padding-bottom: 3rem;
@@ -518,7 +528,7 @@ body::-webkit-scrollbar-thumb {
 
     .content-container {
       width: 90%;
-      padding: 2.4rem 0 3.5rem 2.4rem;
+      padding: 2.4rem 1.25rem 3.5rem 2.4rem;
       background-color: white;
       position: relative;
       margin-left: 10%;
@@ -812,6 +822,34 @@ body::-webkit-scrollbar-thumb {
     position: inherit;
     z-index: 100;
   }
+
+  @media only screen and (max-width: 600px) {
+    display: none;
+  }
+}
+
+.banner-5-mobile {
+  display: none;
+
+  @media only screen and (max-width: 600px) {
+    display: block;
+
+    .image-container {
+      width: 90%;
+    }
+
+    .content-container {
+      width: 90%;
+      padding: 2.4rem 1.25rem 3.5rem 2.4rem;
+      background-color: white;
+      position: relative;
+      margin-left: 10%;
+
+      .sub-text {
+        border-top: 1px solid #944dbf;
+      }
+    }
+  }
 }
 
 .banner-6 {
@@ -819,6 +857,13 @@ body::-webkit-scrollbar-thumb {
   height: 22rem;
   width: calc(100vw - 4rem);
   margin-top: -12rem;
+
+  @media only screen and (max-width: 600px) {
+    height: 24rem;
+    margin-top: -21rem;
+    margin-left: 0;
+    width: 100vw;
+  }
 }
 
 .detail-6 {
