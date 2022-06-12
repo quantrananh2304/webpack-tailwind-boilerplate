@@ -616,6 +616,16 @@ body::-webkit-scrollbar-thumb {
 
 .banner-4 {
   background-image: linear-gradient(154deg, #f0eaf4 36%, #dfc3f2 97%);
+
+  @media only screen and (max-width: 600px) {
+    padding: 3.5rem 20px 5rem 20px;
+    font-size: 1rem !important;
+
+    .container {
+      display: flex;
+      flex-direction: column;
+    }
+  }
 }
 
 .detail-4 {
@@ -640,6 +650,112 @@ body::-webkit-scrollbar-thumb {
       p {
         color: #591f7d;
       }
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    padding-top: 0;
+
+    .mt-12 {
+      margin-top: 0;
+    }
+
+    .contact {
+      margin-top: 3rem;
+      padding-left: 20px;
+      padding-right: 20px;
+
+      .fs-27 {
+        font-size: 1.6rem !important;
+      }
+
+      .grid-cols-2 {
+        margin-top: 2rem;
+
+        .item {
+          padding-top: 20px;
+          padding-bottom: 15px;
+
+          img {
+            margin: auto 0;
+          }
+
+          #icon-1 {
+            height: 2rem;
+          }
+
+          #icon-2 {
+            height: 0.6rem;
+          }
+
+          .mt-05-mobile {
+            margin-top: 0.5rem;
+          }
+
+          .lh-60 {
+            line-height: normal !important;
+          }
+
+          .fs-17 {
+            font-size: 1.1rem !important;
+          }
+
+          .fs-40 {
+            font-size: 2rem !important;
+          }
+
+          .fs-15 {
+            font-size: 0.9rem !important;
+          }
+        }
+      }
+    }
+
+    .image-container-1::before {
+      content: "01";
+      color: #f4dffc;
+      position: relative;
+      top: 2.8rem;
+      font-size: 4rem !important;
+    }
+
+    .image-container-2::before {
+      content: "02";
+      color: #f4dffc;
+      position: relative;
+      top: 2.8rem;
+      font-size: 4rem !important;
+    }
+
+    .image-container-3::before {
+      content: "03";
+      color: #f4dffc;
+      position: relative;
+      top: 2.8rem;
+      font-size: 4rem !important;
+    }
+
+    .grid-cols-2 {
+      padding-left: 20px;
+      padding-right: 20px;
+      display: flex;
+      flex-direction: column-reverse;
+
+      .fs-20 {
+        font-size: 1.2rem !important;
+      }
+
+      .fs-12 {
+        font-size: 1rem !important;
+      }
+
+      .leading-none {
+        display: none;
+      }
+    }
+
+    .grid-cols-2:nth-child(2) {
+      flex-direction: column;
     }
   }
 }
@@ -706,6 +822,10 @@ body::-webkit-scrollbar-thumb {
       }
     }
   }
+
+  @media only screen and (max-width: 600px) {
+    display: none;
+  }
 }
 
 .banner-7 {
@@ -738,6 +858,10 @@ body::-webkit-scrollbar-thumb {
 #sec_contact-us {
   margin: 70px 0 130px;
   background-color: #f9f6fa;
+
+  @media only screen and (max-width: 600px) {
+    display: none;
+  }
 }
 
 #sec_contact-us .formWrap table {
