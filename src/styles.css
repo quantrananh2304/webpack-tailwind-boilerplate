@@ -165,6 +165,7 @@ body::-webkit-scrollbar-thumb {
   background-image: url("./assets/images/background-1.svg");
   padding: 6% 10%;
   background-size: 100%;
+  padding-bottom: 0;
 
   @media only screen and (max-width: 600px) {
     background-image: url("./assets/images/background-3.svg");
@@ -763,6 +764,20 @@ body::-webkit-scrollbar-thumb {
 .detail-5 {
   .sub-text {
     border-top: 1px solid #944dbf;
+  }
+
+  @media only screen and (max-width: 600px) {
+    padding-left: 20px;
+    padding-right: 20px;
+
+    .grid-cols-2 {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .grid-cols-2:nth-child(2) {
+      flex-direction: column-reverse;
+    }
   }
 }
 
