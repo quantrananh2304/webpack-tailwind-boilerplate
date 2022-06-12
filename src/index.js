@@ -78,4 +78,6 @@ document.getElementById("icon-13").setAttribute("src", icon2);
 document.getElementById("icon-14").setAttribute("src", icon2);
 document.getElementById("icon-15").setAttribute("src", icon2);
 document.getElementById("icon-16").setAttribute("src", icon2);
+document.getElementById("icon-17").setAttribute("src", icon1);
+document.getElementById("icon-18").setAttribute("src", icon2);
 document.getElementById("background-2").setAttribute("src", background2);
