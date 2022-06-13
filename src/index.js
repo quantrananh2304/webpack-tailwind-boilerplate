@@ -87,3 +87,29 @@ document.getElementById("icon-16").setAttribute("src", icon2);
 document.getElementById("icon-17").setAttribute("src", icon1);
 document.getElementById("icon-18").setAttribute("src", icon2);
 document.getElementById("background-2").setAttribute("src", background2);
+
+[
+  $("#icon-2"),
+  $("#icon-4"),
+  $("#icon-10"),
+  $("#icon-11"),
+  $("#icon-12"),
+  $("#icon-13"),
+  $("#icon-14"),
+  $("#icon-15"),
+  $("#icon-16"),
+  $("#icon-18"),
+].forEach(function (item) {
+  item.on("click", function () {
+    $("html, body").animate(
+      {
+        scrollTop: $(".formWrap").offset().top,
+      },
+      2000
+    );
+  });
+
+  item.on("mouseenter", function () {
+    $(this).css("cursor", "pointer");
+  });
+});
