@@ -31,7 +31,7 @@ import image29 from "./assets/images/image-29.svg";
 import icon1 from "./assets/icons/icon-1.svg";
 import icon2 from "./assets/icons/icon-2.svg";
 import icon3 from "./assets/icons/icon-3.svg";
-import background1 from "./assets/images/background-1.svg";
+import background1 from "./assets/images/background-1.png";
 import background2 from "./assets/images/background-2.svg";
 
 document.getElementById("image-2").setAttribute("src", image2);
