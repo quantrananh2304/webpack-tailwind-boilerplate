@@ -1640,7 +1640,7 @@ header#fixedHeader .headerInner h1 a {
   display: block;
   width: 286px;
   height: 64px;
-  background: url("assets/images/logo.svg") left center/contain no-repeat;
+  background: url("assets/images/logo_color.svg") left center/contain no-repeat;
 }
 .headerInner h1 a:hover {
   opacity: 1;
@@ -1705,6 +1705,7 @@ header#fixedHeader .headerInner nav {
   width: 100%;
   z-index: 5;
   height: 125px;
+  background: #fff;
 }
 .headerInner a {
   color: #591F7D;
@@ -1814,6 +1815,79 @@ a.uLine span::after {
 
 .link_a.color a span::after {
   background: #591F7D;
+}
+
+#sec_reservation {
+  /* height: 284px; */
+  overflow: visible;
+  /* background: url("../images/reservation_bg.jpg") center center/cover no-repeat; */
+  border-top: 1px solid #591F7D;
+  position: relative;
+}
+#sec_reservation #pageTopBtn {
+  position: absolute;
+  right: 0;
+  top: -75px;
+  width: 75px;
+  height: 75px;
+  background: #591F7D url("assets/images/pagetop_btn.svg") center center no-repeat;
+  z-index: 10;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+#sec_reservation #pageTopBtn:hover {
+  background: rgba(89,31,125,0.2) url("assets/images/pagetop_btn_color.svg") center center no-repeat;
+  border-bottom: 1px solid #591F7D;
+}
+
+#sec_reservation .wrapper {
+  padding-top: 78px;
+}
+#sec_reservation .textWrap {
+  margin-left: calc(50% + 100px);
+}
+@media screen and (max-width: 940px) {
+  #sec_reservation .textWrap {
+      margin-left: calc(50%);
+  }
+}
+#sec_reservation .textWrap .inner {
+  min-height: 100px;
+}
+#sec_reservation .textWrap .inner a {
+  background: url("assets/images/arrow_color.svg") right center no-repeat;
+  padding-right: 30px;
+}
+#sec_reservation .textWrap .inner span.t {
+  display: block;
+  padding-bottom: 5px;
+  font-family: 'Noto Serif JP', serif;
+  font-size: 3.5rem;
+  line-height: 1;
+}
+#sec_reservation .textWrap .inner p {
+  margin: 25px 0 30px;
+}
+#sec_reservation .textWrap .inner p i {
+  display: inline-block;
+  font-family: 'Cinzel', serif;
+  font-weight: 600;
+  font-size: 2.0rem;
+  line-height: 1;
+  color: #591F7D;
+  vertical-align: top;
+  margin-right: 20px;
+}
+#sec_reservation .textWrap .inner p span {
+  display: inline-block;
+  font-size: 1.5rem;
+  line-height: 1;
+  vertical-align: top;
+  margin-top: 1px;
+}
+#sec_reservation .link_a {
+  text-align: right;
+  margin-right: -24px;
 }
 
 footer {
@@ -1949,7 +2023,7 @@ header#fixedHeader .headerInner h1 a {
     display: block;
     width: 183px;
     height: 41px;
-    background: url("assets/images/logo.svg") left center/contain no-repeat;
+    background: url("assets/images/logo_color.svg") left center/contain no-repeat;
 }
 .headerInner h1 a:active {
     opacity: 1;
@@ -1963,7 +2037,7 @@ header#fixedHeader .headerInner h1 a {
     top: 0;
     width: 100%;
     z-index: 5;
-    height: 125px;
+    height: 86px;
 }
 .headerInner a {
     color: #591F7D;
@@ -2196,6 +2270,8 @@ a.uLine span::after {
 .link_a.color a span::after {
     background: #591F7D;
 }
+
+
 footer {
   overflow: hidden;
   background: #73359A;
@@ -2215,6 +2291,7 @@ footer img.logo {
 }
 footer nav {
   margin-top: 10vw;
+  display: block;
 }
 footer nav ul {
   display: none;
@@ -2223,9 +2300,9 @@ footer nav ul.main {
   display: block;
 }
 footer nav ul li {
-  font-size: 1.8rem;
-  line-height: 3em;
-  height: 3em;
+  font-size: 1.2rem;
+  line-height: 1.2em;
+  height: 1.8em;
   border-bottom: 1px solid #fff
 }
 footer nav ul li.h {
