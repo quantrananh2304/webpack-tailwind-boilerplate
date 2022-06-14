@@ -1313,6 +1313,7 @@ body::-webkit-scrollbar-thumb {
     font-family: "Noto Serif JP", serif;
     font-size: 1.2rem;
     line-height: 1;
+    text-align: left;
   }
   /*------------------------------------------------*/
   #sec_contact-us .formWrap {
