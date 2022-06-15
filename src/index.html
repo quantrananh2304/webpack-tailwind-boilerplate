@@ -46,22 +46,22 @@
     <script src="/assets/js/common.js"></script>
   </head>
 
-  <body>
-    <header id="topHeader">
+  <body ontouchstart="">
+    <header id="fixedHeader">
       <div class="headerInner">
-        <div class="container">
+        <div class="wrapper">
           <h1><a href="/">Ai Medical Clicic FUKUOKA</a></h1>
           <div class="spMenu">
             <span class="t1"></span><span class="t2"></span
             ><span class="t3"></span>
           </div>
           <nav>
-            <!-- <ul>
+            <ul>
               <li><a href="/">TOP</a></li>
               <li><a href="/about/">About us</a></li>
               <li>
                 <a href="/menu/">Menu</a>
-                <dl>
+                <!-- <dl>
                   <dd><a href="/menu/karada.html">カラダ診断</a></dd>
                   <dd>
                     <a href="javascript:pageJump('/menu/','#biyou_sec');"
@@ -69,19 +69,81 @@
                     >
                   </dd>
                   <dd><a href="/menu/wakagaeri.html">若返り</a></dd>
-                </dl>
+                </dl> -->
               </li>
               <li><a href="/gallery/">Gallery</a></li>
               <li><a href="/access/">Access</a></li>
               <li><a href="/contact/">Contact</a></li>
-            </ul> -->
+            </ul>
           </nav>
         </div>
       </div>
     </header>
-    <div
-      class="flex flex-col w-screen pb-20 mt-16 text-center bg-no-repeat banner-1 lg:mt-28"
-    >
+    <div id="topHeader">
+      <div class="headerInner">
+        <div class="wrapper">
+          <h1><a href="/">Ai Medical Clicic FUKUOKA</a></h1>
+          <div class="spMenu">
+            <span class="t1"></span><span class="t2"></span
+            ><span class="t3"></span>
+          </div>
+          <nav>
+            <ul>
+              <li><a href="/">TOP</a></li>
+              <li><a href="/about/">ABOUT US</a></li>
+              <li>
+                <a href="/menu/">MENU</a>
+                <!-- <dl>
+                  <dd><a href="/menu/karada.html">カラダ診断</a></dd>
+                  <dd>
+                    <a href="javascript:pageJump('/menu/','#biyou_sec');"
+                      >美容</a
+                    >
+                  </dd>
+                  <dd><a href="/menu/wakagaeri.html">若返り</a></dd>
+                </dl> -->
+              </li>
+              <li><a href="/gallery/">GALLERY</a></li>
+              <li><a href="/access/">ACCESS</a></li>
+              <li><a href="/contact/">CONTACT</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div id="spNavi" class="md:hidden">
+      <div class="headerInner">
+        <div class="wrapper">
+          <h1><a href="/">Ai Medical Clicic FUKUOKA</a></h1>
+          <div class="spMenu">
+            <span class="t1"></span><span class="t2"></span
+            ><span class="t3"></span>
+          </div>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="/">TOP</a></li>
+          <li><a href="/about/">ABOUT US</a></li>
+          <li>
+            <a href="/menu/">MENU</a>
+            <dl>
+              <dd><a href="/menu/karada.html">カラダ診断</a></dd>
+              <dd>
+                <a href="javascript:pageJump('/menu/','#biyou_sec');"
+                  >美容</a
+                >
+              </dd>
+              <dd><a href="/menu/wakagaeri.html">若返り</a></dd>
+            </dl>
+          </li>
+          <li><a href="/gallery/">GALLERY</a></li>
+          <li><a href="/access/">ACCESS</a></li>
+          <li><a href="/contact/">CONTACT</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="flex flex-col w-screen pb-20 text-center bg-no-repeat banner-1">
       <div class="grid grid-cols-3">
         <div class="col-span-1"></div>
         <div class="col-span-2 text">
@@ -211,13 +273,13 @@
         </div>
       </div>
     </div>
-    <div class="w-screen pt-20 text-center information fs-32 pb-14">
+    <div class="w-screen pt-16 text-center information fs-32 pb-14">
       <p class="relative">薄毛の症状</p>
       <div class="line m-auto h-0.5 w-20 mt-4"></div>
     </div>
     <div class="w-screen pt-20 text-center detail-1 pb-28">
-      <div class="container px-6 mx-auto">
-        <p class="fs-15">薄毛に悩まれていませんか？</p>
+      <div class="container px-6 mx-auto mt-4">
+        <p class="leading-8 fs-15">薄毛に悩まれていませんか？</p>
         <p class="fs-15">
           まずは自分に当てはまるものにチェックをしてみてください。
         </p>
@@ -291,12 +353,12 @@
         <p class="fs-20 fs-20-mobile">お早めの治療をおすすめいたします。</p>
       </div>
     </div>
-    <div class="w-screen pt-20 text-center information fs-32 pb-14">
+    <div class="w-screen pt-16 text-center information fs-32 pb-14">
       <p class="relative">発毛と抜け毛の進行パターン</p>
       <div class="line m-auto h-0.5 w-20 mt-4"></div>
     </div>
     <div class="container m-auto mx-auto mb-12 bg-no-repeat detail-2"></div>
-    <div class="w-screen pt-20 text-center information fs-32 pb-14">
+    <div class="w-screen pt-16 text-center information fs-32 pb-14">
       <p class="relative">毛髪サイクルが乱れる原因</p>
       <div class="line m-auto h-0.5 w-20 mt-4"></div>
     </div>
@@ -307,7 +369,7 @@
             加齢による<span class="text-color-purple">ホルモンバランス</span
             >の乱れ
           </p>
-          <p class="pt-3 mt-3 fs-12 sub-text">
+          <p class="pt-3 mt-3 leading-8 fs-12 sub-text">
             女性の場合、加齢によって男性ホルモンが増加、女性ホルモンが減少し、ホルモンバランスが崩れることで、ヘアサイクルの乱れにつながります。
           </p>
         </div>
@@ -321,7 +383,7 @@
             <br />
             毛髪サイクルは乱れる
           </p>
-          <p class="pt-3 mt-3 fs-12 sub-text">
+          <p class="pt-3 mt-3 leading-8 fs-12 sub-text">
             加齢や生活習慣が原因で血流が悪くなり、毛髪に必要な栄養素が行き届かなくなることによって、髪の成長が妨げられることがあります。
           </p>
         </div>
@@ -406,20 +468,20 @@
         </div>
       </div>
     </div>
-    <div class="w-screen pt-20 text-center information fs-32 pb-14">
+    <div class="w-screen pt-16 text-center information fs-32 pb-14">
       <p class="relative">Ai Medical Clicic FUKUOKAの</p>
       <p class="relative">3つの特徴</p>
       <div class="line m-auto h-0.5 w-20 mt-4"></div>
     </div>
-    <div class="container pt-20 pb-20 mx-auto detail-4">
-      <div class="grid grid-cols-2 gap-4">
+    <div class="container pt-20 pb-16 mx-auto md:pb-28 detail-4">
+      <div class="grid flex-col-reverse grid-cols-2 gap-4">
         <div>
           <p class="leading-none fs-85 text-color-purple-light">01</p>
           <p class="fs-20">
             薄毛の原因を見つける徹底した
             <span class="text-color-purple">検査</span>
           </p>
-          <p class="pt-3 mt-3 fs-12 sub-text">
+          <p class="pt-3 mt-3 leading-8 fs-12 sub-text">
             薄毛の原因には様々な要素があります。
             <br />
             他院では頭皮の状態や生活習慣の問診だけで評価する場合が多いですが、当院では高次元人間ドックを用いた検査にて血管、自律神経、ストレス、体の健康状態に至るまで細かく診断いたします。
@@ -429,7 +491,7 @@
         </div>
         <div class="image-container-1"><img id="image-8" width=" 100%" /></div>
       </div>
-      <div class="grid grid-cols-2 gap-4 mt-24">
+      <div class="grid grid-cols-2 gap-4 -mt-10 md:mt-24">
         <div class="image-container-2"><img id="image-9" width="100%" /></div>
         <div>
           <p class="leading-none fs-85 text-color-purple-light">02</p>
@@ -438,7 +500,7 @@
             <span class="text-color-purple">安心の治療</span>
             でも
           </p>
-          <p class="pt-3 mt-3 fs-12 sub-text">
+          <p class="pt-3 mt-3 leading-8 fs-12 sub-text">
             当院では最新のAGA治療である、幹細胞培養上清液/AGA治療に特化した特殊ペプチドを頭皮に直接注入します。
             <br />
             弱った毛根細胞に成長因子を直接届けることで若い頃の様な元気のある状態にして行きます。
@@ -447,11 +509,11 @@
           </p>
         </div>
       </div>
-      <div class="grid grid-cols-2 gap-4 mt-24">
+      <div class="grid flex-col-reverse grid-cols-2 gap-4 -mt-10 md:mt-24">
         <div>
           <p class="leading-none fs-85 text-color-purple-light">03</p>
           <p class="fs-20">様々なホームケア商品の提案</p>
-          <p class="pt-3 mt-3 fs-12 sub-text">
+          <p class="pt-3 mt-3 leading-8 fs-12 sub-text">
             様々なラインナップのAGA専用のシャンプー・コンディショナー・ローションなどをセットにした、ホームケア用の商品になります。まずは、ホームケアセットでご自宅での治療をしたいという方にオススメいたします。
           </p>
         </div>
@@ -459,13 +521,13 @@
       </div>
       <div class="text-center contact pt-14 pb-14 text-color-purple mt-36">
         <p class="fs-27">お気軽に無料カウンセリングへお越しください</p>
-        <div class="grid grid-cols-2 gap-10 mt-12">
+        <div class="grid flex-col-reverse grid-cols-2 gap-10 mt-12">
           <div class="flex flex-col pt-10 pb-10 item">
             <p class="fs-17 text-color-primary">
               お電話でのご予約・お問い合わせ
             </p>
             <div class="flex flex-row justify-center fs-40">
-              <img id="icon-3" />
+              <img id="icon-3" class="h-8 md:h-auto" />
               <p class="ml-4">092-441-5003</p>
             </div>
             <p class="fs-15 text-color-primary">
@@ -483,12 +545,12 @@
         </div>
       </div>
     </div>
-    <div class="w-screen pt-20 text-center information fs-32 pb-14">
+    <div class="w-screen pt-16 text-center information fs-32 pb-14">
       <p class="relative">Ai Medical Clicic FUKUOKAの</p>
       <p class="relative">選ばれる理由</p>
       <div class="line m-auto h-0.5 w-20 mt-4"></div>
     </div>
-    <div class="container pt-20 pb-20 mx-auto detail-5">
+    <div class="container pt-24 mx-auto pb-28 detail-5">
       <div class="grid grid-cols-2 gap-4">
         <div><img id="image-11" width="100%" /></div>
         <div>
@@ -496,20 +558,20 @@
             博多駅から
             <span class="text-color-purple">徒歩3分</span>
           </p>
-          <p class="pt-3 mt-3 fs-12 sub-text">
+          <p class="pt-3 mt-3 leading-8 fs-12 sub-text">
             全ての部屋が個室となっており
             <br />
             他の患者様と顔をあわせることはほとんどありません。
           </p>
         </div>
       </div>
-      <div class="grid grid-cols-2 gap-4 mt-12">
+      <div class="grid grid-cols-2 gap-4 mt-10 md:mt-24">
         <div>
           <p class="fs-20">
             完全
             <span class="text-color-purple">個室</span>
           </p>
-          <p class="pt-3 mt-3 fs-12 sub-text">
+          <p class="pt-3 mt-3 leading-8 fs-12 sub-text">
             全ての部屋が個室となっており
             <br />
             他の患者様と顔をあわせることはほとんどありません。
@@ -517,14 +579,14 @@
         </div>
         <div><img id="image-12" width=" 100%" /></div>
       </div>
-      <div class="grid grid-cols-2 gap-4 mt-12-mobile">
+      <div class="grid grid-cols-2 gap-4 mt-10 md:mt-24">
         <div><img id="image-13" width="100%" /></div>
         <div>
           <p class="fs-20">
             <span class="text-color-purple"> スピード</span>
             発毛治療
           </p>
-          <p class="pt-3 mt-3 fs-12 sub-text">
+          <p class="pt-3 mt-3 leading-8 fs-12 sub-text">
             頭皮環境だけでなく全身状態を正確に把握し、
             <br />
             薄毛の程度や全身状態から最適なAGA治療プランをご提案します。
@@ -532,7 +594,7 @@
         </div>
       </div>
     </div>
-    <div class="w-screen pt-20 text-center information fs-32 pb-14">
+    <div class="w-screen pt-16 text-center information fs-32 pb-14">
       <p class="relative">
         <span class="line-break">副作用のない</span>スピード発毛の秘密
       </p>
@@ -617,15 +679,17 @@
             </p>
           </div>
         </div>
-        <div class="flex-row justify-center w-max image-mobile">
+        <div class="justify-center col-span-11 mx-auto w-max image-mobile">
           <img id="image-35" />
         </div>
       </div>
     </div>
     <div class="container mx-auto detail-4">
       <div class="text-center contact pt-14 pb-14 text-color-purple mt-36">
-        <p class="text-2xl lg:text-4xl">まずはご相談ください</p>
-        <p class="mt-6 text-base lg:text-lg text-color-primary">
+        <p class="text-2xl md:text-4xl">まずはご相談ください</p>
+        <p
+          class="mt-6 text-base text-left md:text-center md:text-lg text-color-primary"
+        >
           薄毛が気になっておられる方、従来の投薬治療に満足していない方。
           <br />
           <span class="text-color-purple">無料カウンセリング</span
@@ -637,13 +701,13 @@
           <span class="text-color-purple">美容治療</span>
           のご相談も同時に受けていただけます。
         </p>
-        <div class="grid grid-cols-2 gap-10 mt-12">
+        <div class="grid flex-col grid-cols-2 gap-10 mt-12">
           <div class="flex flex-col pt-10 pb-10 item">
             <p class="fs-17 text-color-primary">
               お電話でのご予約・お問い合わせ
             </p>
             <div class="flex flex-row justify-center fs-40">
-              <img id="icon-9" />
+              <img id="icon-9" class="h-8 md:h-auto" />
               <p class="ml-4">092-441-5003</p>
             </div>
             <p class="fs-15 text-color-primary">
@@ -676,21 +740,21 @@
         <span class="fs-35">%OFF</span>
       </p>
     </div>
-    <div class="w-screen pt-20 text-center information fs-32 pb-14">
+    <div class="w-screen pt-16 text-center information fs-32 pb-14">
       <p class="relative">治療の流れ</p>
       <div class="line m-auto h-0.5 w-20 mt-4"></div>
     </div>
     <div class="container px-6 pb-32 mx-auto detail-7 text-color-primary pt-28">
       <p class="flex flex-row leading-none title">
-        <span class="text-3xl text-color-purple lg:text-6xl">01</span>
-        <span class="ml-5 text-lg lg:text-4xl">受付・問診票記入</span>
+        <span class="text-3xl text-color-purple md:text-6xl">01</span>
+        <span class="ml-5 text-lg md:text-4xl">受付・問診票記入</span>
       </p>
       <div class="grid grid-cols-11 gap-7 pt-9 content">
-        <div class="order-2 col-span-11 lg:order-1 lg:col-span-4">
+        <div class="order-2 col-span-11 md:order-1 md:col-span-4">
           <img id="image-21" />
         </div>
-        <div class="order-1 col-span-11 lg:order-2 lg:col-span-7">
-          <p class="text-base lg:text-lg">
+        <div class="order-1 col-span-11 md:order-2 md:col-span-7">
+          <p class="text-base md:text-lg">
             来院後にカウンセリング申込用紙と問診票の記入いただきます。
             <br />
             カウンセリング前にご不明点等ございましたら、スタッフまでお気軽にご相談ください。
@@ -701,15 +765,15 @@
         </div>
       </div>
       <p class="flex flex-row mt-6 leading-none title">
-        <span class="text-3xl text-color-purple lg:text-6xl">02</span>
-        <span class="ml-5 text-lg lg:text-4xl">医師の診察</span>
+        <span class="text-3xl text-color-purple md:text-6xl">02</span>
+        <span class="ml-5 text-lg md:text-4xl">医師の診察</span>
       </p>
       <div class="grid grid-cols-11 gap-7 pt-9 content">
-        <div class="order-2 col-span-11 lg:order-1 lg:col-span-4">
+        <div class="order-2 col-span-11 md:order-1 md:col-span-4">
           <img id="image-22" />
         </div>
-        <div class="order-1 col-span-11 lg:order-2 lg:col-span-7">
-          <p class="text-base lg:text-lg">
+        <div class="order-1 col-span-11 md:order-2 md:col-span-7">
+          <p class="text-base md:text-lg">
             問診表を元に医師が頭髪、頭皮の状態と身体全体の健康状態を問診いたします。
             <br />
             初診も再診も無料で行なっておりますので、ご不明な点がございましたらお気軽に医師にお伝えください。
@@ -720,15 +784,15 @@
         </div>
       </div>
       <p class="flex flex-row mt-6 leading-none title">
-        <span class="text-3xl text-color-purple lg:text-6xl">03</span>
-        <span class="ml-5 text-lg lg:text-4xl">高次元人間ドックによる検査</span>
+        <span class="text-3xl text-color-purple md:text-6xl">03</span>
+        <span class="ml-5 text-lg md:text-4xl">高次元人間ドックによる検査</span>
       </p>
       <div class="grid grid-cols-11 gap-7 pt-9 content">
-        <div class="order-2 col-span-11 lg:order-1 lg:col-span-4">
+        <div class="order-2 col-span-11 md:order-1 md:col-span-4">
           <img id="image-23" />
         </div>
-        <div class="order-1 col-span-11 lg:order-2 lg:col-span-7">
-          <p class="text-base lg:text-lg">
+        <div class="order-1 col-span-11 md:order-2 md:col-span-7">
+          <p class="text-base md:text-lg">
             2分間の測定で様々な全身状態を把握することができます。
             <br />
             その結果を元に薄毛の原因を探します。
@@ -739,17 +803,17 @@
         </div>
       </div>
       <p class="flex flex-row mt-6 leading-none title">
-        <span class="text-3xl text-color-purple lg:text-6xl">04</span>
-        <span class="ml-5 text-lg lg:text-4xl"
+        <span class="text-3xl text-color-purple md:text-6xl">04</span>
+        <span class="ml-5 text-lg md:text-4xl"
           >カウンセラーと治療プランを決める</span
         >
       </p>
       <div class="grid grid-cols-11 gap-7 pt-9 content">
-        <div class="order-2 col-span-11 lg:order-1 lg:col-span-4">
+        <div class="order-2 col-span-11 md:order-1 md:col-span-4">
           <img id="image-24" />
         </div>
-        <div class="order-1 col-span-11 lg:order-2 lg:col-span-7">
-          <p class="text-base lg:text-lg">
+        <div class="order-1 col-span-11 md:order-2 md:col-span-7">
+          <p class="text-base md:text-lg">
             カウンセラーが診察内容を元に、お悩みや不安をお伺いしながら治療の内容、お薬の種類や費用について詳しくご説明いたします。
           </p>
         </div>
@@ -758,17 +822,17 @@
         </div>
       </div>
       <p class="flex flex-row mt-6 leading-none title">
-        <span class="text-3xl text-color-purple lg:text-6xl">05</span>
-        <span class="ml-5 text-lg lg:text-4xl"
+        <span class="text-3xl text-color-purple md:text-6xl">05</span>
+        <span class="ml-5 text-lg md:text-4xl"
           >カウンセラーと治療プランを決める</span
         >
       </p>
       <div class="grid grid-cols-11 gap-7 pt-9 content">
-        <div class="order-2 col-span-11 lg:order-1 lg:col-span-4">
+        <div class="order-2 col-span-11 md:order-1 md:col-span-4">
           <img id="image-25" />
         </div>
-        <div class="order-1 col-span-11 lg:order-2 lg:col-span-7">
-          <p class="text-base lg:text-lg">
+        <div class="order-1 col-span-11 md:order-2 md:col-span-7">
+          <p class="text-base md:text-lg">
             頭皮にヘアフィラーもしくは幹細胞培養上清液を注入します。
             <br />
             痛みに不安がある方や注入時に恐怖心を感じる方は、麻酔クリームや局所麻酔を使用できるかどうか医師に相談してください。
@@ -779,17 +843,17 @@
         </div>
       </div>
       <p class="flex flex-row mt-6 leading-none title">
-        <span class="text-3xl text-color-purple lg:text-6xl">06</span>
-        <span class="ml-5 text-lg lg:text-4xl"
+        <span class="text-3xl text-color-purple md:text-6xl">06</span>
+        <span class="ml-5 text-lg md:text-4xl"
           >治療経過をみるための頭部の写真撮影</span
         >
       </p>
       <div class="grid grid-cols-11 gap-7 pt-9 content">
-        <div class="order-2 col-span-11 lg:order-1 lg:col-span-4">
+        <div class="order-2 col-span-11 md:order-1 md:col-span-4">
           <img id="image-26" />
         </div>
-        <div class="order-1 col-span-11 lg:order-2 lg:col-span-7">
-          <p class="text-base lg:text-lg">
+        <div class="order-1 col-span-11 md:order-2 md:col-span-7">
+          <p class="text-base md:text-lg">
             初診も再診も無料で行なっておりますので、ご不明な点がございましたらお気軽に医師にお伝えください。
           </p>
         </div>
@@ -798,23 +862,23 @@
         </div>
       </div>
       <p class="flex flex-row mt-6 leading-none title">
-        <span class="text-3xl text-color-purple lg:text-6xl">07</span>
-        <span class="ml-5 text-lg lg:text-4xl"
+        <span class="text-3xl text-color-purple md:text-6xl">07</span>
+        <span class="ml-5 text-lg md:text-4xl"
           >お会計 治療薬やサプリメントの処方</span
         >
       </p>
       <div class="grid grid-cols-11 gap-7 pt-9 content">
-        <div class="order-2 col-span-11 lg:order-1 lg:col-span-4">
+        <div class="order-2 col-span-11 md:order-1 md:col-span-4">
           <img id="image-27" />
         </div>
-        <div class="order-1 col-span-11 lg:order-2 lg:col-span-7">
-          <p class="text-base lg:text-lg">
+        <div class="order-1 col-span-11 md:order-2 md:col-span-7">
+          <p class="text-base md:text-lg">
             お支払いには現金、クレジットカードがご利用いただけます。
           </p>
         </div>
       </div>
     </div>
-    <div class="w-screen pt-20 text-center information fs-32 pb-14">
+    <div class="w-screen pt-16 text-center information fs-32 pb-14">
       <p class="relative">よくあるご質問</p>
       <div class="line m-auto h-0.5 w-20 mt-4"></div>
     </div>
@@ -881,20 +945,20 @@
         <p class="mt-8 text-lg text-color-purple">
           毛根が生きているうちに治療を始めましょう
         </p>
-        <div class="grid grid-cols-2 gap-10 mt-12">
-          <div class="flex flex-col col-span-2 pt-10 pb-10 item lg:col-span-1">
+        <div class="grid flex-col grid-cols-2 gap-10 mt-12">
+          <div class="flex flex-col col-span-2 pt-10 pb-10 item md:col-span-1">
             <p class="fs-17 text-color-primary">
               お電話でのご予約・お問い合わせ
             </p>
             <div class="flex flex-row justify-center fs-40">
-              <img id="icon-17" />
+              <img id="icon-17" class="h-8 md:h-auto" />
               <p class="ml-4">092-441-5003</p>
             </div>
             <p class="fs-15 text-color-primary">
               AM10:00~PM18:00(日曜日診療・祝日休み)
             </p>
           </div>
-          <div class="flex flex-col col-span-2 pt-10 pb-10 item lg:col-span-1">
+          <div class="flex flex-col col-span-2 pt-10 pb-10 item md:col-span-1">
             <p class="fs-17">無料カウンセリング</p>
             <div class="flex flex-row justify-center fs-27 lh-60">
               <p class="mr-4">WEB予約はこちら</p>
@@ -907,12 +971,12 @@
     </div>
     <div id="sec_contact-us">
       <div class="container px-6 mx-auto">
-        <h2 class="text-2xl text-center lg:text-4xl text-color-purple-heavy">
-          <span>当院へのお問い合わせ</span>
+        <h2 class="text-2xl text-center md:text-4xl text-color-purple">
+          <span>無料カウンセリング予約</span>
         </h2>
         <div class="line m-auto h-0.5 w-20 mt-4"></div>
         <p
-          class="pt-3 mt-3 text-base leading-loose text-left lg:text-lg lg:text-center sub-text"
+          class="pt-3 mt-3 text-base text-left md:leading-10 md:text-lg md:text-center sub-text"
         >
           当クリニックでは、無料でカウンセリングを行っています。
           <br />
@@ -925,7 +989,7 @@
           いただいた個人情報を使用して、営業の連絡等をすることは一切ありませんのでご安心下さい。
         </p>
         <div class="mt-10 mail-form-item">
-          <div class="pt-10 pb-10 text-center item">
+          <div class="px-6 pt-10 pb-10 text-center item">
             <p class="pb-4 text-lg text-color-primary">
               禁忌：妊娠中の方、子供、糖尿病
             </p>
@@ -976,7 +1040,7 @@
                 <tr>
                   <th>
                     カウンセリング
-                    <br />
+                    <br class="hidden md:block" />
                     第1希望日<sup>※</sup>
                   </th>
                   <td>
@@ -1048,7 +1112,7 @@
                 <tr>
                   <th>
                     カウンセリング
-                    <br />
+                    <br class="hidden md:block" />
                     第1希望時間<sup>※</sup>
                   </th>
                   <td>
@@ -1206,12 +1270,12 @@
                 <tr>
                   <th>
                     カウンセリング
-                    <br />
+                    <br class="hidden md:block" />
                     第2希望日<sup>※</sup>
                   </th>
                   <td>
                     <div class="cp_ipselect cp_sl01">
-                      <select name="誕生年">
+                      <select name="カウンセリング第2希望日">
                         <option value=""></option>
                         <option value="2022">2022</option>
                         <option value="2023">2023</option>
@@ -1219,7 +1283,7 @@
                     </div>
                     <div class="t">年</div>
                     <div class="cp_ipselect cp_sl01">
-                      <select name="月">
+                      <select name="月2">
                         <option value=""></option>
                         <option value="1">1</option>
                         <option value="2">2</option>
@@ -1237,7 +1301,7 @@
                     </div>
                     <div class="t">月</div>
                     <div class="cp_ipselect cp_sl01">
-                      <select name="日">
+                      <select name="日2">
                         <option value=""></option>
                         <option value="1">1</option>
                         <option value="2">2</option>
@@ -1278,7 +1342,7 @@
                 <tr>
                   <th>
                     カウンセリング
-                    <br />
+                    <br class="hidden md:block" />
                     第2希望時間<sup>※</sup>
                   </th>
                   <td>

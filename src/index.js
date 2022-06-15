@@ -92,12 +92,6 @@ document.getElementById("background-2").setAttribute("src", background2);
   $("#icon-2"),
   $("#icon-4"),
   $("#icon-10"),
-  $("#icon-11"),
-  $("#icon-12"),
-  $("#icon-13"),
-  $("#icon-14"),
-  $("#icon-15"),
-  $("#icon-16"),
   $("#icon-18"),
 ].forEach(function (item) {
   item.on("click", function () {
@@ -112,4 +106,13 @@ document.getElementById("background-2").setAttribute("src", background2);
   item.on("mouseenter", function () {
     $(this).css("cursor", "pointer");
   });
+});
+
+$('.headerInner .spMenu').on('click', function() {
+  if(!$('body').hasClass('naviOpen')) {
+      $('body').addClass('naviOpen');
+  } else {
+      $('body').removeClass('naviOpen');
+      //$('header#fixedHeader').addClass('show notime');
+  }
 });
