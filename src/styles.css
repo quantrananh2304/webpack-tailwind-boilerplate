@@ -130,7 +130,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .mt-8-mobile {
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 1024px) {
     margin-top: 2rem !important;
   }
 }
@@ -161,7 +161,7 @@ body::-webkit-scrollbar-thumb {
   background-size: 100%;
   padding-bottom: 0;
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 1024px) {
     background-image: url("./assets/images/background-3.svg");
     padding: 18rem 20px 12px 20px;
 
@@ -182,7 +182,7 @@ body::-webkit-scrollbar-thumb {
         border-bottom: 1px solid #944dbf;
       }
 
-      @media only screen and (max-width: 600px) {
+      @media only screen and (max-width: 1024px) {
         font-size: 2.1rem;
       }
     }
@@ -191,7 +191,7 @@ body::-webkit-scrollbar-thumb {
       font-size: 2.1rem;
       font-weight: 500;
 
-      @media only screen and (max-width: 600px) {
+      @media only screen and (max-width: 1024px) {
         font-size: 1.1rem;
         margin: 1rem 0;
       }
@@ -203,7 +203,7 @@ body::-webkit-scrollbar-thumb {
       border-top: 1px solid #944bdf;
       padding: 1.2rem 0;
 
-      @media only screen and (max-width: 600px) {
+      @media only screen and (max-width: 1024px) {
         font-size: 0.9rem;
         margin: 0;
         width: 100%;
@@ -217,7 +217,7 @@ body::-webkit-scrollbar-thumb {
   }
 
   .items {
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 1024px) {
       display: flex;
       flex-direction: column;
       margin: 2.8rem 0;
@@ -239,7 +239,7 @@ body::-webkit-scrollbar-thumb {
         padding: 1.7rem 0 1.3rem 2.8rem;
         color: white;
 
-        @media only screen and (max-width: 600px) {
+        @media only screen and (max-width: 1024px) {
           padding: 0;
         }
       }
@@ -249,12 +249,12 @@ body::-webkit-scrollbar-thumb {
         padding: 1.7rem 2.8rem 1.3rem 0;
         color: rgb(201, 145, 235);
 
-        @media only screen and (max-width: 600px) {
+        @media only screen and (max-width: 1024px) {
           padding: 0;
         }
       }
 
-      @media only screen and (max-width: 600px) {
+      @media only screen and (max-width: 1024px) {
         padding: 1rem 1.8rem;
         font-size: 1rem;
         border: 1px solid #c991eb;
@@ -293,7 +293,7 @@ body::-webkit-scrollbar-thumb {
       bottom: 5px;
     }
 
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 1024px) {
       display: none;
     }
   }
@@ -327,7 +327,7 @@ body::-webkit-scrollbar-thumb {
     bottom: 5px;
   }
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 1024px) {
     display: flex;
   }
 }
@@ -336,7 +336,7 @@ body::-webkit-scrollbar-thumb {
   color: #591f7d;
   background-color: #f9f6fa;
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 1024px) {
     font-size: 1.5rem !important;
     padding: 2.2rem 0;
 
@@ -361,7 +361,7 @@ body::-webkit-scrollbar-thumb {
   border-top: 6rem solid #f9f6fa;
   left: calc(50% - 4.2rem);
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 1024px) {
     border-left: 2rem solid transparent;
     border-right: 2rem solid transparent;
     border-top: 3.5rem solid #f9f6fa;
@@ -378,7 +378,7 @@ body::-webkit-scrollbar-thumb {
     border-radius: 7px;
     border: 1px solid #591f7d;
 
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 1024px) {
       min-width: 4.5rem;
       max-width: 4.5rem;
       height: 4.5rem;
@@ -389,7 +389,7 @@ body::-webkit-scrollbar-thumb {
     border-bottom: 1px solid #591f7d;
     width: calc(560px - 8rem);
 
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 1024px) {
       max-width: 70%;
       font-size: 0.8rem !important;
       padding-left: 0;
@@ -406,7 +406,7 @@ body::-webkit-scrollbar-thumb {
     padding-right: 7.5rem;
   }
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 1024px) {
     padding-top: 1.6rem;
     padding-bottom: 3rem;
 
@@ -450,7 +450,7 @@ body::-webkit-scrollbar-thumb {
   height: 853px;
   background-image: url("./assets/images/image-1.svg");
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 1024px) {
     width: 375px;
     height: 339px;
     background-size: contain;
@@ -462,7 +462,7 @@ body::-webkit-scrollbar-thumb {
     border-top: 1px solid #944dbf;
   }
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 1024px) {
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 4.5rem;
@@ -507,7 +507,7 @@ body::-webkit-scrollbar-thumb {
     z-index: 100;
   }
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 1024px) {
     display: none;
   }
 }
@@ -515,7 +515,7 @@ body::-webkit-scrollbar-thumb {
 .banner-2-mobile {
   display: none;
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 1024px) {
     display: block;
 
     .image-container {
@@ -562,7 +562,7 @@ body::-webkit-scrollbar-thumb {
     }
   }
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 1024px) {
     margin: 0;
     width: 100vw;
     margin-top: -25rem;
@@ -629,7 +629,7 @@ body::-webkit-scrollbar-thumb {
 .banner-4 {
   background-image: linear-gradient(154deg, #f0eaf4 36%, #dfc3f2 97%);
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 1024px) {
     padding: 3.5rem 20px 5rem 20px;
     font-size: 1rem !important;
 
@@ -665,7 +665,7 @@ body::-webkit-scrollbar-thumb {
     }
   }
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 1024px) {
     padding-top: 0;
 
     .mt-12 {
@@ -777,7 +777,7 @@ body::-webkit-scrollbar-thumb {
     border-top: 1px solid #944dbf;
   }
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 1024px) {
     padding-left: 20px;
     padding-right: 20px;
 
@@ -819,7 +819,7 @@ body::-webkit-scrollbar-thumb {
     z-index: 100;
   }
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 1024px) {
     display: none;
   }
 }
@@ -827,7 +827,7 @@ body::-webkit-scrollbar-thumb {
 .banner-5-mobile {
   display: none;
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 1024px) {
     display: block;
 
     .image-container {
@@ -854,7 +854,7 @@ body::-webkit-scrollbar-thumb {
   width: calc(100vw - 4rem);
   margin-top: -12rem;
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 1024px) {
     height: 24rem;
     margin-top: -21rem;
     margin-left: 0;
@@ -904,7 +904,7 @@ body::-webkit-scrollbar-thumb {
     display: none;
   }
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 1024px) {
     padding-left: 20px;
     padding-right: 20px;
     margin-top: 5rem;
@@ -1133,7 +1133,7 @@ body::-webkit-scrollbar-thumb {
 }
 .cp_ipselect select {
   font-size: 1rem;
-  width: 250px;
+  width: 110px;
   padding-right: 1em;
   cursor: pointer;
   text-overflow: ellipsis;
@@ -1190,6 +1190,7 @@ body::-webkit-scrollbar-thumb {
 .cp_ipselect.cp_sl02 select {
   padding: 8px 38px 8px 8px;
   color: #666666;
+  width: 250px;
 }
 
 #sec_contact-us .backBtn {
@@ -1303,7 +1304,7 @@ body::-webkit-scrollbar-thumb {
   top: 22px;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1024px) {
   .wrapper {
     padding: 0 5vw;
     margin: 0 auto;
@@ -1446,7 +1447,7 @@ body::-webkit-scrollbar-thumb {
   }
   .cp_ipselect select {
     font-size: 1rem;
-    width: 100%;
+    width: 98px;
     padding-right: 0;
     cursor: pointer;
     text-overflow: ellipsis;
@@ -1980,7 +1981,7 @@ footer .copyright {
   margin-top: 70px;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1024px) {
   header#fixedHeader {
     position: fixed;
     z-index: 20;
