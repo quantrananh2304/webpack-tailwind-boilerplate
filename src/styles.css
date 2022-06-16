@@ -51,7 +51,7 @@
 }
 
 body {
-  font-family: "NotoSerifJP", "sans-serif";
+  font-family: 'Noto Serif JP';
   overflow-x: hidden;
   color: #333333;
 }
@@ -157,7 +157,7 @@ body::-webkit-scrollbar-thumb {
 
 .banner-1 {
   background-image: url("./assets/images/background-1.png");
-  padding: 6% 10%;
+  padding: 6% 4%;
   background-size: 100%;
   padding-bottom: 0;
 
@@ -1260,6 +1260,7 @@ body::-webkit-scrollbar-thumb {
   padding-left: 50px;
   padding-right: 60px;
   font-size: 1rem;
+  font-weight: 400;
   line-height: 1.6;
   padding: 25px 100px 25px 110px;
   user-select: none;
@@ -1285,6 +1286,7 @@ body::-webkit-scrollbar-thumb {
   position: relative;
   display: none;
   font-size: 1rem;
+  font-weight: 400;
   line-height: 2;
   border-top: 1px solid #591f7d;
   margin-top: 20px;
