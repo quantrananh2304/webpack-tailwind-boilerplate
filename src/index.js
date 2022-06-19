@@ -28,12 +28,20 @@ import image26 from "./assets/images/image-26.svg";
 import image27 from "./assets/images/image-27.svg";
 import image28 from "./assets/images/image-28.svg";
 import image29 from "./assets/images/image-29.svg";
+import image30 from "./assets/images/image-30.svg";
+import image31 from "./assets/images/image-31.svg";
+import image32 from "./assets/images/image-32.svg";
+import image33 from "./assets/images/image-33.svg";
+import image34 from "./assets/images/image-34.svg";
+import image35 from "./assets/images/image-35.svg";
 import icon1 from "./assets/icons/icon-1.svg";
 import icon2 from "./assets/icons/icon-2.svg";
 import icon3 from "./assets/icons/icon-3.svg";
 import background1 from "./assets/images/background-1.png";
 import background2 from "./assets/images/background-2.svg";
 import banner1 from "./assets/images/Group 4082.svg";
+import contact1 from "./assets/images/Group 3980.svg";
+import contact2 from "./assets/images/Group 3979.svg";
 
 document.getElementById("image-2").setAttribute("src", image2);
 document.getElementById("image-3").setAttribute("src", image3);
@@ -69,52 +77,63 @@ document.getElementById("image-32").setAttribute("src", image18);
 document.getElementById("image-33").setAttribute("src", image19);
 document.getElementById("image-34").setAttribute("src", image20);
 document.getElementById("image-35").setAttribute("src", image15);
-document.getElementById("icon-1").setAttribute("src", icon1);
-document.getElementById("icon-2").setAttribute("src", icon2);
-document.getElementById("icon-3").setAttribute("src", icon1);
-document.getElementById("icon-4").setAttribute("src", icon2);
+document.getElementById("image-36").setAttribute("src", image30);
+document.getElementById("image-37").setAttribute("src", image31);
+document.getElementById("image-38").setAttribute("src", image32);
+document.getElementById("image-39").setAttribute("src", image33);
+document.getElementById("image-40").setAttribute("src", image34);
+document.getElementById("image-41").setAttribute("src", image35);
+// document.getElementById("icon-1").setAttribute("src", icon1);
+// document.getElementById("icon-2").setAttribute("src", icon2);
+// document.getElementById("icon-3").setAttribute("src", icon1);
+// document.getElementById("icon-4").setAttribute("src", icon2);
 document.getElementById("icon-5").setAttribute("src", icon3);
 document.getElementById("icon-6").setAttribute("src", icon3);
 document.getElementById("icon-7").setAttribute("src", icon3);
 document.getElementById("icon-8").setAttribute("src", icon3);
-document.getElementById("icon-9").setAttribute("src", icon1);
-document.getElementById("icon-10").setAttribute("src", icon2);
+// document.getElementById("icon-9").setAttribute("src", icon1);
+// document.getElementById("icon-10").setAttribute("src", icon2);
 document.getElementById("icon-11").setAttribute("src", icon2);
 document.getElementById("icon-12").setAttribute("src", icon2);
 document.getElementById("icon-13").setAttribute("src", icon2);
 document.getElementById("icon-14").setAttribute("src", icon2);
 document.getElementById("icon-15").setAttribute("src", icon2);
 document.getElementById("icon-16").setAttribute("src", icon2);
-document.getElementById("icon-17").setAttribute("src", icon1);
-document.getElementById("icon-18").setAttribute("src", icon2);
+// document.getElementById("icon-17").setAttribute("src", icon1);
+// document.getElementById("icon-18").setAttribute("src", icon2);
 document.getElementById("background-2").setAttribute("src", background2);
-document.getElementById("banner1").setAttribute("src", banner1);
+document.getElementById("banner-1").setAttribute("src", banner1);
+document.getElementById("contact-1").setAttribute("src", contact1);
+document.getElementById("contact-2").setAttribute("src", contact2);
+document.getElementById("contact-3").setAttribute("src", contact1);
+document.getElementById("contact-4").setAttribute("src", contact2);
+document.getElementById("contact-5").setAttribute("src", contact1);
+document.getElementById("contact-6").setAttribute("src", contact2);
+document.getElementById("contact-7").setAttribute("src", contact1);
+document.getElementById("contact-8").setAttribute("src", contact2);
 
-[
-  $("#icon-2"),
-  $("#icon-4"),
-  $("#icon-10"),
-  $("#icon-18"),
-].forEach(function (item) {
-  item.on("click", function () {
-    $("html, body").animate(
-      {
-        scrollTop: $(".formWrap").offset().top,
-      },
-      2000
-    );
-  });
+[$("#contact-2"), $("#contact-4"), $("#contact-6"), $("#contact-8")].forEach(
+  function (item) {
+    item.on("click", function () {
+      $("html, body").animate(
+        {
+          scrollTop: $(".formWrap").offset().top,
+        },
+        2000
+      );
+    });
 
-  item.on("mouseenter", function () {
-    $(this).css("cursor", "pointer");
-  });
-});
+    item.on("mouseenter", function () {
+      $(this).css("cursor", "pointer");
+    });
+  }
+);
 
-$('.headerInner .spMenu').on('click', function() {
-  if(!$('body').hasClass('naviOpen')) {
-      $('body').addClass('naviOpen');
+$(".headerInner .spMenu").on("click", function () {
+  if (!$("body").hasClass("naviOpen")) {
+    $("body").addClass("naviOpen");
   } else {
-      $('body').removeClass('naviOpen');
-      //$('header#fixedHeader').addClass('show notime');
+    $("body").removeClass("naviOpen");
+    //$('header#fixedHeader').addClass('show notime');
   }
 });
