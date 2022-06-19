@@ -51,7 +51,7 @@
 }
 
 body {
-  font-family: 'Noto Serif JP';
+  font-family: 'Noto Sans JP',"Hiragino Kaku Gothic ProN","Hiragino Kaku Gothic Pro",メイリオ,Meiryo,sans-serif;
   overflow-x: hidden;
   color: #333333;
 }
@@ -1921,37 +1921,13 @@ footer nav {
   margin-top: 68px;
 }
 footer nav ul li {
-  font-size: 1.8rem;
+  font-size: 18px;
   line-height: 1.5;
   margin-bottom: 15px;
   padding-left: 1em;
 }
 footer nav ul.main li {
   margin-bottom: 30px;
-}
-@media screen and (max-width: 1040px) {
-  footer nav ul li {
-      font-size: 1.6rem;
-      line-height: 1.5;
-  }
-}
-@media screen and (max-width: 960px) {
-  footer nav ul li {
-      font-size: 1.5rem;
-      line-height: 1.5;
-  }
-}
-@media screen and (max-width: 890px) {
-  footer nav ul li {
-      font-size: 1.4rem;
-      line-height: 1.5;
-  }
-}
-@media screen and (max-width: 800px) {
-  footer nav ul li {
-      font-size: 1.3rem;
-      line-height: 1.5;
-  }
 }
 footer nav ul li.h {
   padding-left: 0;
@@ -1971,7 +1947,7 @@ footer nav li.sns .inner span.instagram {
   display: block;
   padding-left: 52px;
   background: url("assets/images/instagram.svg") left center/auto 40px no-repeat;
-  font-size: 1.8rem;
+  font-size: 18px;
   height: 42px;
   padding-top: 6px;
 }
@@ -2310,10 +2286,11 @@ footer nav ul.main {
   display: block;
 }
 footer nav ul li {
-  font-size: 1.2rem;
-  line-height: 1.2em;
-  height: 1.8em;
-  border-bottom: 1px solid #fff
+  font-size: 18px;
+  line-height: 18px;
+  height: 27px;
+  border-bottom: 1px solid #fff;
+  padding: 0;
 }
 footer nav ul li.h {
   padding-left: 0;
