@@ -2287,8 +2287,8 @@ footer nav ul.main {
 }
 footer nav ul li {
   font-size: 18px;
-  line-height: 18px;
-  height: 27px;
+  line-height: 54px;
+  height: 54px;
   border-bottom: 1px solid #fff;
   padding: 0;
 }
@@ -2310,6 +2310,10 @@ footer .copyright {
   line-height: 1;
   margin: 50vw -5vw 0;
 }
+footer nav ul.main li {
+  margin-bottom: 0;
+}
+
 @media screen and (max-width: 350px) {
   footer .copyright {
       transform: scale(0.9);
