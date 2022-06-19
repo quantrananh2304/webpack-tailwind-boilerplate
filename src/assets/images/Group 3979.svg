@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="550" height="215" viewBox="0 0 550 215">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-6 {
+        stroke: #591f7d;
+      }
+
+      .cls-2, .cls-5 {
+        fill: #591f7d;
+      }
+
+      .cls-2 {
+        font-size: 23px;
+      }
+
+      .cls-2, .cls-4 {
+        font-family: YuGothicUI-Regular, Yu Gothic UI;
+      }
+
+      .cls-3 {
+        fill: #333;
+        font-size: 18px;
+      }
+
+      .cls-3, .cls-5 {
+        font-family: SegoeUI, Segoe UI;
+      }
+
+      .cls-5 {
+        font-size: 36px;
+      }
+
+      .cls-6, .cls-8 {
+        fill: none;
+      }
+
+      .cls-6 {
+        stroke-width: 3px;
+      }
+
+      .cls-7 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_3979" data-name="Group 3979" transform="translate(-720 -4649)">
+    <g id="Rectangle_56" data-name="Rectangle 56" class="cls-1" transform="translate(720 4649)">
+      <rect class="cls-7" width="550" height="215" rx="7"/>
+      <rect class="cls-8" x="0.5" y="0.5" width="549" height="214" rx="6.5"/>
+    </g>
+    <text id="無料カウンセリング" class="cls-2" transform="translate(995 4708)"><tspan x="-83.6" y="0">無料カウンセリング</tspan></text>
+    <text id="_24時間365日受付" data-name="24時間365日受付" class="cls-3" transform="translate(995 4819)"><tspan x="-69.258" y="0">24</tspan><tspan class="cls-4" y="0">時間</tspan><tspan y="0">365</tspan><tspan class="cls-4" y="0">日受付</tspan></text>
+    <g id="Group_3978" data-name="Group 3978" transform="translate(-18 -36)">
+      <text id="WEB予約はこちら" class="cls-5" transform="translate(995 4808)"><tspan x="-125.604" y="0">WEB</tspan><tspan class="cls-4" y="0">予約はこちら</tspan></text>
+      <path id="Path_248" data-name="Path 248" class="cls-6" d="M0,22.8,11.4,11.4,0,0" transform="translate(1188.101 4792.5) rotate(90)"/>
+    </g>
+  </g>
+</svg>

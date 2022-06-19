@@ -156,10 +156,12 @@ body::-webkit-scrollbar-thumb {
 }
 
 .banner-1 {
-  background-image: url("./assets/images/background-1.png");
+  /* background-image: url("./assets/images/Group\ 4082.svg"); */
   padding: 6% 4%;
   background-size: 100%;
   padding-bottom: 0;
+  max-width: 1100px;
+  margin: 0 auto;
 
   @media only screen and (max-width: 1024px) {
     background-image: url("./assets/images/background-3.svg");

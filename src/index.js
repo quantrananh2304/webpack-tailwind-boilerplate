@@ -33,6 +33,7 @@ import icon2 from "./assets/icons/icon-2.svg";
 import icon3 from "./assets/icons/icon-3.svg";
 import background1 from "./assets/images/background-1.png";
 import background2 from "./assets/images/background-2.svg";
+import banner1 from "./assets/images/Group 4082.svg";
 
 document.getElementById("image-2").setAttribute("src", image2);
 document.getElementById("image-3").setAttribute("src", image3);
@@ -87,6 +88,7 @@ document.getElementById("icon-16").setAttribute("src", icon2);
 document.getElementById("icon-17").setAttribute("src", icon1);
 document.getElementById("icon-18").setAttribute("src", icon2);
 document.getElementById("background-2").setAttribute("src", background2);
+document.getElementById("banner1").setAttribute("src", banner1);
 
 [
   $("#icon-2"),
