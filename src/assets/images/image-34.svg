@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <g id="Group_3967" data-name="Group 3967" transform="translate(-141 -4337)">
+    <g id="Rectangle_12" data-name="Rectangle 12" transform="translate(141 4337)" fill="#fff" stroke="#591f7d" stroke-width="1">
+      <rect width="128" height="128" rx="7" stroke="none"/>
+      <rect x="0.5" y="0.5" width="127" height="127" rx="6.5" fill="none"/>
+    </g>
+    <text id="症状" transform="translate(205 4386)" fill="#591f7d" font-size="22" font-family="PingFangSC-Regular, PingFang SC"><tspan x="-22" y="0">症状</tspan></text>
+    <text id="_05" data-name="05" transform="translate(205 4431)" fill="#591f7d" font-size="34" font-family="Helvetica"><tspan x="-18.909" y="0">05</tspan></text>
+  </g>
+</svg>
