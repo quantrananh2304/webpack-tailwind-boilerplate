@@ -40,8 +40,11 @@ import icon3 from "./assets/icons/icon-3.svg";
 import background1 from "./assets/images/background-1.png";
 import background2 from "./assets/images/background-2.svg";
 import banner1 from "./assets/images/Group 4082.svg";
+import banner1mobile from "./assets/images/Group 4083.svg";
 import contact1 from "./assets/images/Group 3980.svg";
 import contact2 from "./assets/images/Group 3979.svg";
+import headercontact from "./assets/images/Group 3963.png";
+import spheadercontact from "./assets/images/Path 245.png";
 
 document.getElementById("image-2").setAttribute("src", image2);
 document.getElementById("image-3").setAttribute("src", image3);
@@ -103,6 +106,7 @@ document.getElementById("icon-16").setAttribute("src", icon2);
 // document.getElementById("icon-18").setAttribute("src", icon2);
 document.getElementById("background-2").setAttribute("src", background2);
 document.getElementById("banner-1").setAttribute("src", banner1);
+document.getElementById("banner-1-mobile").setAttribute("src", banner1mobile);
 document.getElementById("contact-1").setAttribute("src", contact1);
 document.getElementById("contact-2").setAttribute("src", contact2);
 document.getElementById("contact-3").setAttribute("src", contact1);
@@ -111,6 +115,10 @@ document.getElementById("contact-5").setAttribute("src", contact1);
 document.getElementById("contact-6").setAttribute("src", contact2);
 document.getElementById("contact-7").setAttribute("src", contact1);
 document.getElementById("contact-8").setAttribute("src", contact2);
+document.getElementById("header-contact").setAttribute("src", headercontact);
+document.getElementById("header-contact1").setAttribute("src", headercontact);
+document.getElementById("sp-contact").setAttribute("src", spheadercontact);
+document.getElementById("sp-contact1").setAttribute("src", spheadercontact);
 
 [$("#contact-2"), $("#contact-4"), $("#contact-6"), $("#contact-8")].forEach(
   function (item) {
@@ -137,3 +145,20 @@ $(".headerInner .spMenu").on("click", function () {
     //$('header#fixedHeader').addClass('show notime');
   }
 });
+
+(function () {
+  let year_start = (new Date).getFullYear();
+  let year_end = (new Date).getFullYear() + 1; // current year
+  let year_selected = "";
+
+  let option = '';
+  option = '<option></option>'; // first option
+
+  for (let i = year_start; i <= year_end; i++) {
+      let selected = (i === year_selected ? ' selected' : '');
+      option += '<option value="' + i + '"' + selected + '>' + i + '</option>';
+  }
+
+  document.getElementById("year").innerHTML = option;
+  document.getElementById("year2").innerHTML = option;
+})();
